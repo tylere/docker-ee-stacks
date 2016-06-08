@@ -11,5 +11,6 @@ RUN apt-get update && apt-get install -y \
     git \
     && apt-get clean
 RUN pip install cryptography
-RUN pip install nose yolk
+RUN pip install nose
+RUN pip install yolk
 RUN pip install 'git+git://github.com/tylere/earthengine-api.git@master#subdirectory=python'
