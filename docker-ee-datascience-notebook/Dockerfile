@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook
+FROM jupyter/datascience-notebook
 
 MAINTAINER Tyler Erickson <tylere@google.com>
 
