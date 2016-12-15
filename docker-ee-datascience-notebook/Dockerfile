@@ -20,8 +20,8 @@ RUN pip2 install cryptography
 RUN pip3 install cryptography
 
 # Install the Earth Engine Python API
-RUN pip2 install earthengine-api==0.1.95
-RUN pip3 install earthengine-api==0.1.95
+RUN pip2 install earthengine-api==0.1.101
+RUN pip3 install earthengine-api==0.1.101
 
 # Install the GDAL
 RUN conda install --quiet --yes -n python2 gdal
